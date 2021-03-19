@@ -1,7 +1,7 @@
 # Running the JOIN Order Benchmark on IRIS
 
 This repository contains scripts for running the JOIN Order Benchmark (JOB) on InterSystems IRIS. 
-The JOIN Order Benchmark was proposed in "How Good Are Query Optimizers, Really?" by Viktor Leis, Andrey Gubichev, Atans Mirchev, Peter Boncz, Alfons Kemper, Thomas Neumann; PVLDB Volume 9, No. 3, 2015 - http://www.vldb.org/pvldb/vol9/p204-leis.pdf. 
+The JOIN Order Benchmark was proposed in "[How Good Are Query Optimizers, Really?](http://www.vldb.org/pvldb/vol9/p204-leis.pdf)" by Viktor Leis, Andrey Gubichev, Atans Mirchev, Peter Boncz, Alfons Kemper, Thomas Neumann; PVLDB Volume 9, No. 3, 2015. 
 
 ## Sources
 
@@ -12,8 +12,8 @@ We propose running the test using the same CSV files used in the paper, represen
 ## In this repository
 
 - `src/cls/` contains a minimal utility class to set up the environment and run the queries. The focus is on maximizing SQL feature use.
-- `src/sql/` contains the JOB queries, as copied from https://github.com/gregrahn/join-order-benchmark
-- `src/ddl/` contains the DDL statements to set up and load the schema, in separate files per table. Minor adjustments to the original DDLs were made to match IRIS data types and for subsequent loading convenience (see below).
+- `src/sql/` contains the JOB queries, as copied verbatim from https://github.com/gregrahn/join-order-benchmark
+- `src/ddl/` contains the DDL statements to set up and load the schema. Table creation DDL is a near-verbatim copy of what's in `schematext.sql` script included with `imdb.tgz`.
 
 ## Setting up
 
