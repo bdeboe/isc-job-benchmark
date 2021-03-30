@@ -41,6 +41,7 @@ Setup scripts leverage the new `LOAD DATA` syntax available with InterSystems IR
 ### DDL
 
 - in `role_type.sql`, adding double quotes around the reserved word "role"
+- in `keyword.sql`, specify a larger max length for the keyword column as IRIS defaults to 1 rather than unlimited when not specifying a value.
 
 ### SQL 
 
