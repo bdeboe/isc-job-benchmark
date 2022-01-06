@@ -1,7 +1,7 @@
 CREATE TABLE aka_name (
     id integer NOT NULL PRIMARY KEY,
     person_id integer NOT NULL,
-    name character varying,
+    name character varying(32000),
     imdb_index character varying(3),
     name_pcode_cf character varying(11),
     name_pcode_nf character varying(11),

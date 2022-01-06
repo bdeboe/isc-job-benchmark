@@ -3,7 +3,7 @@ CREATE TABLE cast_info (
     person_id integer NOT NULL,
     movie_id integer NOT NULL,
     person_role_id integer,
-    note character varying,
+    note character varying(32000),
     nr_order integer,
     role_id integer NOT NULL
 )

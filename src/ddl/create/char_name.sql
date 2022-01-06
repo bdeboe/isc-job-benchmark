@@ -1,6 +1,6 @@
 CREATE TABLE char_name (
     id integer NOT NULL PRIMARY KEY,
-    name character varying NOT NULL,
+    name character varying(32000) NOT NULL,
     imdb_index character varying(2),
     imdb_id integer,
     name_pcode_nf character varying(5),

@@ -1,7 +1,7 @@
 CREATE TABLE aka_title (
     id integer NOT NULL PRIMARY KEY,
     movie_id integer NOT NULL,
-    title character varying,
+    title character varying(32000),
     imdb_index character varying(4),
     kind_id integer NOT NULL,
     production_year integer,

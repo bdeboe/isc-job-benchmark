@@ -1,6 +1,6 @@
 CREATE TABLE name (
     id integer NOT NULL PRIMARY KEY,
-    name character varying NOT NULL,
+    name character varying(32000) NOT NULL,
     imdb_index character varying(9),
     imdb_id integer,
     gender character varying(1),

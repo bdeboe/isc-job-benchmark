@@ -1,6 +1,6 @@
 CREATE TABLE title (
     id integer NOT NULL PRIMARY KEY,
-    title character varying NOT NULL,
+    title character varying(32000) NOT NULL,
     imdb_index character varying(5),
     kind_id integer NOT NULL,
     production_year integer,
