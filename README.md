@@ -17,7 +17,7 @@ We propose running the test using the same CSV files used in the paper, represen
 
 ## Setting up
 
-Setup scripts leverage the new `LOAD DATA` syntax available with InterSystems IRIS 2021.3.
+Setup scripts leverage the new `LOAD DATA` syntax available with InterSystems IRIS 2021.2.
 
 1. First, clone this repo into a folder of your choice we'll call `$REPO_ROOT`
 
